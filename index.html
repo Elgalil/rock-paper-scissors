@@ -3,8 +3,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="main">
+      <div class="container">
+        <div class="grid">
+          <div class="rock">
+            <img class="image" src="./images/rock.jpg" alt="" />
+          </div>
+          <div class="paper">
+            <img class="image" src="./images/paper.jpg" alt="" />
+          </div>
+          <div class="scissors">
+            <img class="image" src="./images/scissors.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="result">
+          <h2>Please Select Rock Paper or Scissors</h2>
+          <div class="count">
+            <p class="playerCount"></p>
+            <p class="computerCount"></p>
+          </div>
+          <p class="textOutput"></p>
+          <p class="winner"></p>
+        </div>
+      </div>
+    </div>
+
     <script src="scripts.js"></script>
   </body>
 </html>

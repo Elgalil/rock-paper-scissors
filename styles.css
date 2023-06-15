@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  max-width: 970px;
+  margin: auto;
+  padding-inline: 20px;
+}
+
+.main {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(100, 43, 115, 1) 0%,
+    rgba(4, 0, 4, 1) 90%
+  );
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  color: white;
+}
+
+.rock,
+.paper,
+.scissors {
+  display: flex;
+  margin-top: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.result {
+  text-align: center;
+  color: white;
+  padding: 1.2rem;
+}
+
+.count {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+
+.textOutput {
+  padding: 3rem;
+  font-size: 22px;
+}
